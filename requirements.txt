@@ -1,0 +1,8 @@
+# Install CPU-only PyTorch first (much smaller than the CUDA build):
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+transformers==5.22.1
+safetensors==0.8.0
+tokenizers==0.23.3
+huggingface-hub==2.4.0
+numpy==2.4.6

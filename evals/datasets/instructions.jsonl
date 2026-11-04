@@ -1,0 +1,14 @@
+{"id": "if-01", "prompt": "What is the capital of France? Answer in one word.", "checks": [["one_word", null], ["contains", "paris"]]}
+{"id": "if-02", "prompt": "Describe the ocean in at most 20 words.", "checks": [["max_words", 20]]}
+{"id": "if-03", "prompt": "Write a sentence about cats. Use only lowercase letters.", "checks": [["lowercase", null]]}
+{"id": "if-04", "prompt": "Write a short greeting in ALL CAPITAL LETTERS.", "checks": [["uppercase", null]]}
+{"id": "if-05", "prompt": "List exactly three fruits as a bulleted list using '-' and nothing else.", "checks": [["bullet_count", 3]]}
+{"id": "if-06", "prompt": "Write one sentence about the weather that includes the word 'umbrella'.", "checks": [["contains", "umbrella"]]}
+{"id": "if-07", "prompt": "Start your answer with the word 'Yes'. Is the sky blue on a clear day?", "checks": [["starts_with", "yes"]]}
+{"id": "if-08", "prompt": "Return only a JSON object with the keys \"name\" and \"age\" for a person called Ana who is 30.", "checks": [["json_object", null], ["contains", "ana"]]}
+{"id": "if-09", "prompt": "Describe a tree without using any commas.", "checks": [["no_commas", null]]}
+{"id": "if-10", "prompt": "Explain what a computer is in at least 30 words.", "checks": [["min_words", 30]]}
+{"id": "if-11", "prompt": "Name a colour. Do not mention the colour red.", "checks": [["not_contains", "red"]]}
+{"id": "if-12", "prompt": "End your answer with the word 'done'. Count from 1 to 3.", "checks": [["ends_with", "done"]]}
+{"id": "if-13", "prompt": "What is 5 plus 3? Reply with just the number.", "checks": [["contains", "8"], ["max_words", 3]]}
+{"id": "if-14", "prompt": "Write a haiku about rain in lowercase letters only.", "checks": [["lowercase", null]]}

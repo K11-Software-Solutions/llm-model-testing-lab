@@ -1,0 +1,40 @@
+{"id": "geo-01", "category": "geography", "question": "What is the capital of France?", "options": ["Paris", "Berlin", "Madrid", "Rome"], "answer": 0}
+{"id": "geo-02", "category": "geography", "question": "What is the capital of Japan?", "options": ["Beijing", "Seoul", "Tokyo", "Bangkok"], "answer": 2}
+{"id": "geo-03", "category": "geography", "question": "Which is the largest ocean on Earth?", "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"], "answer": 3}
+{"id": "geo-04", "category": "geography", "question": "On which continent is Egypt?", "options": ["Asia", "Africa", "Europe", "South America"], "answer": 1}
+{"id": "geo-05", "category": "geography", "question": "What is the capital of Italy?", "options": ["Rome", "Milan", "Venice", "Naples"], "answer": 0}
+{"id": "geo-06", "category": "geography", "question": "Which country has the city of Mumbai?", "options": ["Pakistan", "India", "Nepal", "Sri Lanka"], "answer": 1}
+{"id": "geo-07", "category": "geography", "question": "What is the longest river in South America?", "options": ["Nile", "Mississippi", "Amazon", "Danube"], "answer": 2}
+{"id": "sci-01", "category": "science", "question": "What gas do plants absorb from the air for photosynthesis?", "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"], "answer": 1}
+{"id": "sci-02", "category": "science", "question": "What is the chemical symbol for water?", "options": ["H2O", "CO2", "NaCl", "O2"], "answer": 0}
+{"id": "sci-03", "category": "science", "question": "Which planet is known as the Red Planet?", "options": ["Venus", "Jupiter", "Mars", "Saturn"], "answer": 2}
+{"id": "sci-04", "category": "science", "question": "At what temperature does water boil at sea level, in degrees Celsius?", "options": ["50", "100", "150", "200"], "answer": 1}
+{"id": "sci-05", "category": "science", "question": "What is the closest star to Earth?", "options": ["The Moon", "Sirius", "Polaris", "The Sun"], "answer": 3}
+{"id": "sci-06", "category": "science", "question": "Which organ pumps blood through the human body?", "options": ["The heart", "The lungs", "The liver", "The kidneys"], "answer": 0}
+{"id": "sci-07", "category": "science", "question": "What force keeps us on the ground?", "options": ["Magnetism", "Friction", "Gravity", "Electricity"], "answer": 2}
+{"id": "sci-08", "category": "science", "question": "How many legs does an insect have?", "options": ["Four", "Six", "Eight", "Ten"], "answer": 1}
+{"id": "sci-09", "category": "science", "question": "What do bees make?", "options": ["Milk", "Silk", "Honey", "Wax paper"], "answer": 2}
+{"id": "sci-10", "category": "science", "question": "What is frozen water called?", "options": ["Steam", "Ice", "Fog", "Dew"], "answer": 1}
+{"id": "math-01", "category": "math", "question": "What is 2 plus 2?", "options": ["3", "4", "5", "22"], "answer": 1}
+{"id": "math-02", "category": "math", "question": "What is 10 multiplied by 10?", "options": ["20", "100", "1000", "110"], "answer": 1}
+{"id": "math-03", "category": "math", "question": "How many sides does a triangle have?", "options": ["Two", "Three", "Four", "Five"], "answer": 1}
+{"id": "math-04", "category": "math", "question": "What is half of 50?", "options": ["20", "25", "30", "100"], "answer": 1}
+{"id": "math-05", "category": "math", "question": "How many minutes are in one hour?", "options": ["30", "60", "100", "120"], "answer": 1}
+{"id": "math-06", "category": "math", "question": "What is 9 minus 3?", "options": ["3", "6", "9", "12"], "answer": 1}
+{"id": "daily-01", "category": "everyday", "question": "How many days are in a week?", "options": ["Five", "Six", "Seven", "Eight"], "answer": 2}
+{"id": "daily-02", "category": "everyday", "question": "What colour is a ripe banana?", "options": ["Blue", "Yellow", "Purple", "Black"], "answer": 1}
+{"id": "daily-03", "category": "everyday", "question": "What do you use to write on a blackboard?", "options": ["Chalk", "A spoon", "A pillow", "Soap"], "answer": 0}
+{"id": "daily-04", "category": "everyday", "question": "Which month comes after January?", "options": ["March", "December", "February", "April"], "answer": 2}
+{"id": "daily-05", "category": "everyday", "question": "What do cows drink?", "options": ["Water", "Milk", "Juice", "Coffee"], "answer": 0, "notes": "Classic trick question: models primed by 'cow' and 'drink' often pick milk."}
+{"id": "daily-06", "category": "everyday", "question": "Which season comes after summer?", "options": ["Spring", "Winter", "Autumn", "Monsoon"], "answer": 2}
+{"id": "daily-07", "category": "everyday", "question": "What is the opposite of hot?", "options": ["Warm", "Cold", "Spicy", "Bright"], "answer": 1}
+{"id": "lang-01", "category": "language", "question": "What is the plural of 'mouse'?", "options": ["Mouses", "Mice", "Mousen", "Meese"], "answer": 1}
+{"id": "lang-02", "category": "language", "question": "Which word is a synonym of 'happy'?", "options": ["Sad", "Joyful", "Angry", "Tired"], "answer": 1}
+{"id": "lang-03", "category": "language", "question": "What is the past tense of 'go'?", "options": ["Goed", "Gone", "Went", "Going"], "answer": 2}
+{"id": "lang-04", "category": "language", "question": "Which of these is a fruit?", "options": ["Carrot", "Apple", "Potato", "Onion"], "answer": 1}
+{"id": "hist-01", "category": "history", "question": "Who was the first person to walk on the Moon?", "options": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"], "answer": 1}
+{"id": "hist-02", "category": "history", "question": "Who painted the Mona Lisa?", "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"], "answer": 2}
+{"id": "hist-03", "category": "history", "question": "Who wrote the play Romeo and Juliet?", "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"], "answer": 1}
+{"id": "tech-01", "category": "technology", "question": "What does CPU stand for?", "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Core Power Unit"], "answer": 0}
+{"id": "tech-02", "category": "technology", "question": "Which of these is a programming language?", "options": ["Python", "Excel", "Chrome", "Windows"], "answer": 0}
+{"id": "tech-03", "category": "technology", "question": "What does HTTP status code 404 mean?", "options": ["Server error", "Not found", "Unauthorized", "OK"], "answer": 1}

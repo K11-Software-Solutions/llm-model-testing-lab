@@ -1,0 +1,18 @@
+[project]
+name = "llm-model-testing-lab"
+version = "1.0.0"
+description = "Build a tiny GPT and test it, then evaluate a real open-weights LLM with CI quality gates."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-ra -m 'not hf'"
+markers = [
+    "hf: tests that load the real Hugging Face model (about 270 MB download; run with: pytest -m hf)",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning",
+]
