@@ -13,7 +13,7 @@ This is the companion to [Becoming an AI Quality Engineer](https://github.com/K1
 
 | Track | What you do | Runs in |
 |---|---|---|
-| **A. Build and test a tiny GPT** ([`tinygpt/`](tinygpt)) | Train a ~110K-parameter character-level transformer on synthetic data you control, then unit-test the model code, the training loop, generation, knowledge, and memorisation of a planted secret | ~20 s training, ~45 s tests |
+| **A. Build and test a tiny GPT** ([`tinygpt/`](tinygpt)) | Train a ~110K-parameter character-level transformer on synthetic data you control, then unit-test the model code, the training loop, generation, knowledge, and memorisation of a planted secret | ~30 s training, ~1 min tests |
 | **B. Evaluate a real open model** ([`modellab/`](modellab), [`evals/`](evals)) | Evaluate SmolLM2-135M-Instruct (Apache-2.0, ~270 MB) on knowledge, calibration, robustness, instruction following, safety, over-refusal, bias, determinism and int8/int4 quantization drift, with regression gates and a release bar | ~4 min on CPU |
 
 ## Articles
@@ -46,7 +46,7 @@ pip install -r requirements-dev.txt
 
 ```bash
 pytest                                  # tokenizer, model, training, memorisation + evaluator unit tests
-python -m tinygpt.train --steps 800     # train and save artifacts/tinygpt.pt
+python -m tinygpt.train --steps 1200    # train and save artifacts/tinygpt.pt
 ```
 
 **Track B** (downloads the model once):
@@ -84,7 +84,7 @@ articles/                the eight articles
 
 Real findings from running these tests, each discussed in the articles:
 
-- **A falling loss is not learning the facts.** TinyGPT's loss looked healthy at 600 steps while it knew only about two thirds of its facts; it took 800 steps to learn them all.
+- **A falling loss is not learning the facts.** TinyGPT's loss looked healthy at 600 steps while it knew only about two thirds of its facts; it took longer training to learn them all, and the step count that is enough on one machine was not enough on another.
 - **Planted secrets leak.** A secret repeated in training data is reproduced verbatim; scrubbing it before training prevents that.
 - **The scoring method changes the score.** Length-normalised multiple-choice scoring picks "Mouses" over "Mice" because the second token of "Mous|es" is easy to predict.
 - **A model can pass regression gates and still not be releasable.** SmolLM2-135M complies with harmful requests; the release bar reports it, the regression gate does not block on it.

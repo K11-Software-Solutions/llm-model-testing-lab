@@ -5,7 +5,7 @@
 You cannot test something well if it is a black box to you. This article walks through a complete GPT-style language model in about 150 lines of PyTorch ([`tinygpt/model.py`](../tinygpt/model.py)). It is the same architecture family as the large models, just tiny.
 
 ```bash
-python -m tinygpt.train --steps 800        # about 20 seconds on a laptop CPU
+python -m tinygpt.train --steps 1200       # about 30 seconds on a laptop CPU
 ```
 
 ## 1. The data: a world we fully control
@@ -72,7 +72,7 @@ Every one of these settings is a testable behaviour, and article 03 tests them.
 
 ```bash
 python -m tinygpt.train --steps 200     # under-trained: what do completions look like?
-python -m tinygpt.train --steps 800
+python -m tinygpt.train --steps 1200
 python -c "from tinygpt.model import TinyGPT; from tinygpt.tokenizer import CharTokenizer; from tinygpt.evaluate import complete; m=TinyGPT.load('artifacts/tinygpt.pt'); t=CharTokenizer.load('artifacts/tinygpt.tokenizer.json'); print(complete(m, t, 'the fox of mill hill eats '))"
 ```
 

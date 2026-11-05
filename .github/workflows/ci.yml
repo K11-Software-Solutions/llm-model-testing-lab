@@ -39,7 +39,7 @@ jobs:
       - name: Unit, training and memorisation tests (no model download)
         run: pytest --junitxml=reports/junit-unit.xml
       - name: Train TinyGPT and keep the loss curve
-        run: python -m tinygpt.train --steps 800 --out artifacts/tinygpt.pt
+        run: python -m tinygpt.train --steps 1200 --out artifacts/tinygpt.pt
       - if: always()
         uses: actions/upload-artifact@v4
         with:

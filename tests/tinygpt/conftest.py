@@ -7,7 +7,7 @@ import pytest
 from tinygpt.data import build_corpus, scrub_secrets
 from tinygpt.train import train
 
-STEPS = 800  # at 600 steps fact accuracy is only ~0.67: knowledge appears late in training
+STEPS = 1200  # 600 steps: ~0.67 fact accuracy; 800: 1.0 on Windows but 0.83 on Linux CI; 1200 leaves margin
 
 
 @pytest.fixture(scope="session")

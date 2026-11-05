@@ -71,6 +71,13 @@ assert not torch.allclose(logits_a[0, 8:], logits_b[0, 8:])
 
 When this test was first written with 600 training steps, it failed: fact accuracy was about 0.67, even though the loss curve looked healthy. At 800 steps it reached 1.0. The loss was already low because most characters in a sentence are easy to predict; the few characters that carry the *fact* (which food) are learned last. **A falling loss does not prove the model has learned what you care about.** Test the capability directly.
 
+### A second finding: "seeded" is not "portable"
+
+The 800-step version then passed on Windows and **failed in CI on Linux**, with 0.83 fact accuracy and the same seed. Floating-point operations run in a different order on different CPUs and library builds, so training runs diverge slightly, and a model that is only just trained can land on either side of a threshold. The fix was not to lower the bar but to add margin: at 1,200 steps, three different seeds all reach 0.97 or higher. Two lessons follow:
+
+- **Seeded reproducibility holds on one machine and software stack.** The reproducibility test compares two runs on the same machine, which is what it can honestly promise.
+- **Don't set capability thresholds at the edge of the learning curve.** Give the test headroom, or it becomes flaky across environments.
+
 ## 5. What to take into real projects
 
 You will rarely write a transformer at work, but you will review training and fine-tuning code. Ask for these tests: initial loss, causal mask, overfit-one-batch, shifted targets, split overlap, seeded reproducibility, checkpoint round-trip, and at least one direct capability probe.

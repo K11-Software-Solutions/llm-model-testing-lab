@@ -32,7 +32,7 @@ The default scoring divides by token count to avoid penalising long answers. But
 
 ## Finding 2: "the loss is low, so it's trained" (a capability gap)
 
-At 600 steps TinyGPT had a healthy-looking loss curve but answered only about two thirds of the fact probes correctly. At 800 steps it answered all of them. Most characters in a sentence are easy to predict; the few that carry the fact are learned last.
+At 600 steps TinyGPT had a healthy-looking loss curve but answered only about two thirds of the fact probes correctly. At 800 steps it answered all of them on a Windows laptop, but only 83% in Linux CI with the same seed, so the suite now trains for 1,200 steps for margin (article 03). Most characters in a sentence are easy to predict; the few that carry the fact are learned last.
 
 **Diagnosis:** step 4, the model genuinely had not learned yet. **Lesson:** loss is an indirect measure. Test the capability you care about directly.
 
