@@ -9,6 +9,16 @@
 
 This is the companion to [Becoming an AI Quality Engineer](https://github.com/K11-Software-Solutions/becoming-ai-quality-engineer), which tests a RAG *application*. This lab goes one layer down and tests **the model itself**: its code, its training, what it memorises, what it knows, how it behaves, and how it changes when compressed. Everything runs on a laptop CPU with **no API key**.
 
+It is the second of five labs in the series:
+
+| Lab | Question it answers |
+|---|---|
+| [Becoming an AI Quality Engineer](https://github.com/K11-Software-Solutions/becoming-ai-quality-engineer) | Is the RAG **application** good enough to ship? |
+| **LLM Model Testing Lab** (this repo) | Is the **model** good enough? |
+| [Agent Testing Lab](https://github.com/K11-Software-Solutions/agent-testing-lab) | Is the **agent** safe to let act? |
+| [AI Production Monitoring Lab](https://github.com/K11-Software-Solutions/ai-production-monitoring-lab) | Is it **still** good, for the users we actually have, right now? |
+| [Multi-Agent Testing Lab](https://github.com/K11-Software-Solutions/multi-agent-testing-lab) | When **agents work together**, does the team do the right thing, and who broke it when it doesn't? |
+
 ## Two tracks
 
 | Track | What you do | Runs in |
