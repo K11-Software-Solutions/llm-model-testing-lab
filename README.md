@@ -9,7 +9,7 @@
 
 This is the companion to [Becoming an AI Quality Engineer](https://github.com/K11-Software-Solutions/becoming-ai-quality-engineer), which tests a RAG *application*. This lab goes one layer down and tests **the model itself**: its code, its training, what it memorises, what it knows, how it behaves, and how it changes when compressed. Everything runs on a laptop CPU with **no API key**.
 
-It is the second of five labs in the series:
+It is the second of eight labs in the series:
 
 | Lab | Question it answers |
 |---|---|
@@ -18,6 +18,9 @@ It is the second of five labs in the series:
 | [Agent Testing Lab](https://github.com/K11-Software-Solutions/agent-testing-lab) | Is the **agent** safe to let act? |
 | [AI Production Monitoring Lab](https://github.com/K11-Software-Solutions/ai-production-monitoring-lab) | Is it **still** good, for the users we actually have, right now? |
 | [Multi-Agent Testing Lab](https://github.com/K11-Software-Solutions/multi-agent-testing-lab) | When **agents work together**, does the team do the right thing, and who broke it when it doesn't? |
+| [AI Performance and Cost Lab](https://github.com/K11-Software-Solutions/ai-performance-cost-lab) | Is it **fast enough under load**, and what does each **good answer** cost? |
+| [AI Evaluation Science Lab](https://github.com/K11-Software-Solutions/ai-evaluation-science-lab) | Can we **trust the evaluator**, and how sure are we? |
+| [AI Data Quality Lab](https://github.com/K11-Software-Solutions/ai-data-quality-lab) | Is the **data** behind it all fit to learn from, test with and retrieve? |
 
 ## Two tracks
 
