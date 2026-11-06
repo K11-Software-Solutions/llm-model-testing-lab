@@ -11,6 +11,8 @@ authors:
 repository-code: "https://github.com/K11-Software-Solutions/llm-model-testing-lab"
 url: "https://github.com/K11-Software-Solutions/llm-model-testing-lab"
 version: "1.0.0"
+date-released: "2026-11-06"
+doi: "10.5281/zenodo.24015642"
 license:
   - MIT
   - CC-BY-4.0
@@ -24,8 +26,10 @@ keywords:
   - quantization
   - red-teaming
   - transformers
-# After the first Zenodo release, add the concept DOI (it always resolves to the latest version):
-# identifiers:
-#   - type: doi
-#     value: "10.5281/zenodo.XXXXXXX"
-#     description: Concept DOI (all versions)
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24015642"
+    description: Concept DOI (all versions; resolves to the latest)
+  - type: doi
+    value: "10.5281/zenodo.24015643"
+    description: Version v1.0.0
