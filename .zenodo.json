@@ -1,0 +1,24 @@
+{
+  "title": "LLM Model Testing Lab",
+  "description": "Build a tiny GPT and test it, then evaluate a real open-weights LLM (SmolLM2-135M): knowledge, calibration, instruction following, safety, bias, memorisation and quantization drift, with CI quality gates. No API key needed.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Jadhav, Kavita",
+      "affiliation": "K11 Software Solutions"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ai-quality-engineering",
+    "gpt-from-scratch",
+    "llm-evaluation",
+    "model-testing",
+    "promptfoo",
+    "pytorch",
+    "quantization",
+    "red-teaming",
+    "transformers"
+  ],
+  "notes": "Code is licensed under MIT; the written material (articles/) is licensed under CC BY 4.0. All products, users and data in the examples are fictional or simulated."
+}
