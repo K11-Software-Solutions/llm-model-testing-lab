@@ -9,7 +9,7 @@
 
 This is the companion to [Becoming an AI Quality Engineer](https://github.com/K11-Software-Solutions/becoming-ai-quality-engineer), which tests a RAG *application*. This lab goes one layer down and tests **the model itself**: its code, its training, what it memorises, what it knows, how it behaves, and how it changes when compressed. Everything runs on a laptop CPU with **no API key**.
 
-It is the second of ten labs in the series:
+It is the second of eleven labs in the series:
 
 | Lab | Question it answers |
 |---|---|
@@ -23,6 +23,7 @@ It is the second of ten labs in the series:
 | [AI Data Quality Lab](https://github.com/K11-Software-Solutions/ai-data-quality-lab) | Is the **data** behind it all fit to learn from, test with and retrieve? |
 | [AI Security Testing Lab](https://github.com/K11-Software-Solutions/ai-security-testing-lab) | Can an **attacker** make it misbehave, and how sure are we that they can't? |
 | [MCP Testing Lab](https://github.com/K11-Software-Solutions/mcp-testing-lab) | Can we trust the **tools our agents plug into**? |
+| [AI Assurance Case Lab](https://github.com/K11-Software-Solutions/ai-assurance-case-lab) (capstone) | Can we **sign it off**, on what evidence, and what risk are we accepting? |
 
 ## Two tracks
 
